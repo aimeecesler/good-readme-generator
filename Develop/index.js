@@ -16,13 +16,18 @@ const questions = [
   },
   {
     type: "input",
+    message: "What are your instructions for installation?",
+    name: "installation",
+  },
+  {
+    type: "input",
     message: "What are the instructions for usage of your project?",
     name: "usage",
   },
   {
     type: "list",
     message: "Which license would you like to use?",
-    name: "License",
+    name: "license",
     choices: ["op1", "op2", "op3", "op4"],
   },
   {
@@ -59,8 +64,8 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
-  fs.writeFile("sampleREADME.md", generateMarkdown(), (err) => {
+function writeToFile(data) {
+  fs.writeFile("sampleREADME.md", generateMarkdown(data), (err) => {
     if (err) throw err;
     console.log("Successfully wrote file");
   });
@@ -68,9 +73,13 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-  inquirer.prompt(questions).then(function (data) {
-    console.log(data);
-  });
+  inquirer
+    .prompt(questions)
+    .then(function (data) {
+      console.log(data);
+      writeToFile(data);
+    })
+    .catch((err) => console.log(err));
 }
 
 // function call to initialize program
