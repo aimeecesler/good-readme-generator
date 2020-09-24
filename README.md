@@ -13,7 +13,7 @@ This repository consists of a command line application that creates a standard R
 * [Building the README Generator](#building-the-README-generator)
 * [Acceptance Criteria](#acceptance-criteria)
 * [Credits](#credits)
-* [Badges](#badges)
+* [Resources](#resources)
 * [Links](#Links)
 * [License](#license)
 
@@ -37,6 +37,8 @@ Edit using VSCode after [installation](#installation). JavaScript and package.js
 ## Building the README Generator
 When a user enters the terminal and navigates to the Develop folder, they then run 'node index.js'. This will begin the user input portion of the command line application. Through a series of questions, the user will build their custom README.md file. Based on the user's input the application will then write a .md file (in this application it is named sampleREADME.md) that contains a title, badges, description and table of contents.It also includes installation, usage, license, contributing, tests and questions sections. You will find that all badges are linked to the user's chosen repository and there are also links to their GitHub profile as well as their email in the questions section.
 
+-----
+
 ## Acceptance Criteria
 
 * GIVEN a command-line application that accepts user input :heavy_check_mark:
@@ -54,3 +56,14 @@ When a user enters the terminal and navigates to the Develop folder, they then r
 * THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions :heavy_check_mark:
 * WHEN I click on the links in the Table of Contents :heavy_check_mark:
 * THEN I am taken to the corresponding section of the README :heavy_check_mark:
+
+-----
+
+## Credits
+As always, a huge thanks to our instructional staff for all their hard work!
+
+## Resources
+
+* [w3schools](https://www.w3schools.com)
+* [Node.js](https://nodejs.org/en/)
+* [Inquirer](https://www.npmjs.com/package/inquirer)
