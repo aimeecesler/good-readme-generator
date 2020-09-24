@@ -12,7 +12,7 @@ const questions = [
   {
     type: "input",
     message:
-      "What is the name of your repository? (Please ensure accuracy for the success of your badges)",
+      "What is the name of your repository?)",
     name: "repoName",
   },
   {
@@ -71,17 +71,6 @@ const questions = [
     type: "input",
     message: "What is your email address?",
     name: "email",
-  },
-  {
-    type: "checkbox",
-    message: "Which badges would you like to use?",
-    name: "badges",
-    choices: [
-      "Monthly Commit Activity",
-      "Last Commit",
-      "Open Issues",
-      "Top Language",
-    ],
   },
 ];
 
