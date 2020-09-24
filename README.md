@@ -73,7 +73,7 @@ As always, a huge thanks to our instructional staff for all their hard work!
 ## Links
 [Repository Link](https://github.com/aimeecesler/good-readme-generator)
 
-[Deployed Application](https://aimeecesler.github.io/good-readme-generator/)
+[Demonstration Video]()
 
 -----
 
