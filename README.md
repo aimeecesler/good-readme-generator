@@ -1,5 +1,7 @@
 # Good README Generator
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This repository consists of a command line application that creates a standard README document for a project based on the user's input.
 
 -----
@@ -23,3 +25,9 @@ This repository consists of a command line application that creates a standard R
 1. Run npm install to install associated modules.
 
 -----
+
+## Usage
+Edit using VSCode after [installation](#installation). JavaScript and package.json files are included.
+
+-----
+
