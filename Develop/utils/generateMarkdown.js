@@ -8,7 +8,7 @@ function generateMarkdown(data) {
       license =
         "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
       licenseText = `
-        Copyright (c) 2020 ${data.name}
+        Copyright &copy; 2020 ${data.name}
         
         Permission is hereby granted, free of charge, to any person obtaining a copy
         of this software and associated documentation files (the "Software"), to deal
@@ -32,7 +32,7 @@ function generateMarkdown(data) {
       license =
         "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
       licenseText = `
-        Copyright (c) 2020 ${data.name}
+        Copyright &copy; 2020 ${data.name}
 
         Licensed under the Apache License, Version 2.0 (the "License");
         you may not use this file except in compliance with the License.
@@ -50,7 +50,7 @@ function generateMarkdown(data) {
       license =
         "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
       licenseText = `
-        Copyright (c) 2020 ${data.name}
+        Copyright &copy; 2020 ${data.name}
         
         This program is free software: you can redistribute it and/or modify
         it under the terms of the GNU General Public License as published by
@@ -69,7 +69,7 @@ function generateMarkdown(data) {
       license =
         "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
       licenseText = `
-        Copyright (c) 2020 ${data.name}
+        Copyright &copy; 2020 ${data.name}
         
         All rights reserved.
 
