@@ -2,6 +2,7 @@
 function generateMarkdown(data) {
   let license = "";
   let licenseText = "";
+  let badgesLinks = "";
   switch (data.license) {
     case "MIT":
       license =
@@ -95,9 +96,20 @@ function generateMarkdown(data) {
         SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.`;
       break;
   }
+  for (let i = 0; i < data.badges.length; i++) {
+    if (data.badges[i] === "Weekly Commit Activity") {
+      badgesLinks = badgesLinks + `![badge](https://img.shields.io/github/commit-activity/d/${data.username}/${data.repoName}) `;
+    } else if (data.badges[i] === "Last Commit") {
+      badgesLinks = badgesLinks + `![badge](https://img.shields.io/github/last-commit/${data.username}/${data.repoName}) `;
+    } else if (data.badges[i] === "Open Issues") {
+      badgesLinks = badgesLinks + `![badge](https://img.shields.io/github/issues-raw/${data.username}/${data.repoName}) `;
+    } else if (data.badges[i] === "Top Language") {
+      badgesLinks = badgesLinks + `![badge](https://img.shields.io/github/languages/top/${data.username}/${data.repoName}) `;
+    }
+  }
 
   return `# ${data.title}
-${license}
+${license} ${badgesLinks}
 ## Description
 ### ${data.description}
 

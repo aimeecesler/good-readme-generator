@@ -59,8 +59,13 @@ const questions = [
     type: "checkbox",
     message: "Which badges would you like to use?",
     name: "badges",
-    choices: ["badge1", "badge2", "badge3", "badge4", "badge5"],
+    choices: ["Weekly Commit Activity", "Last Commit", "Open Issues", "Top Language"],
   },
+  {
+    type: "input",
+    message: "What is the name of your repository? (Please ensure accuracy for the success of your badges)",
+    name: "repoName"
+  }
 ];
 
 // function to write README file
@@ -76,7 +81,7 @@ function init() {
   inquirer
     .prompt(questions)
     .then(function (data) {
-      console.log(data);
+      console.log(data.badges);
       writeToFile(data);
     })
     .catch((err) => console.log(err));
