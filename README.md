@@ -4,6 +4,8 @@
 
 This repository consists of a command line application that creates a standard README document for a project based on the user's input.
 
+![Sample](./Develop/assets/samplereadme.PNG)
+
 -----
 
 ## Table of Contents
