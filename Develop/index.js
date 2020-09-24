@@ -11,6 +11,23 @@ const questions = [
   },
   {
     type: "input",
+    message:
+      "What is the name of your repository? (Please ensure accuracy for the success of your badges)",
+    name: "repoName",
+  },
+  {
+    type: "checkbox",
+    message: "Which badges would you like to use?",
+    name: "badges",
+    choices: [
+      "Monthly Commit Activity",
+      "Last Commit",
+      "Open Issues",
+      "Top Language",
+    ],
+  },
+  {
+    type: "input",
     message: "What is the description of your project?",
     name: "description",
   },
@@ -26,7 +43,7 @@ const questions = [
   },
   {
     type: "list",
-    message: "Which license would you like to use?",
+    message: "Which license would you like to use? (badge will be automatically applied)",
     name: "license",
     choices: ["MIT", "Apache 2.0", "GPL 3.0", "BSD 3"],
   },
@@ -65,12 +82,6 @@ const questions = [
       "Open Issues",
       "Top Language",
     ],
-  },
-  {
-    type: "input",
-    message:
-      "What is the name of your repository? (Please ensure accuracy for the success of your badges)",
-    name: "repoName",
   },
 ];
 
