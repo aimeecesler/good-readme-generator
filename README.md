@@ -35,7 +35,7 @@ Edit using VSCode after [installation](#installation). JavaScript and package.js
 -----
 
 ## Building the README Generator
-When a user enters the terminal and navigates to the Develop folder, they then run 'node index.js'. This will begin the user input portion of the command line application. Through a series of questions, the user will build their custom README.md file. Based on the user's input the application will then write a .md file (in this application it is named sampleREADME.md) that contains a title, badges, description and table of contents.It also includes installation, usage, license, contributing, tests and questions sections. You will find that all badges are linked to the user's chosen repository and there are also links to their GitHub profile as well as their email in the questions section.
+When a user enters the terminal and navigates to the Develop folder, they then run 'node index.js'. This will begin the user input portion of the command line application. Through a series of questions, the user will build their custom README.md file. Based on the user's input the application will then write a .md file (in this application it is named ![sampleREADME.md](./develop/sampleREADME.md)) that contains a title, badges, description and table of contents.It also includes installation, usage, license, contributing, tests and questions sections. You will find that all badges are linked to the user's chosen repository and there are also links to their GitHub profile as well as their email in the questions section.
 
 -----
 
