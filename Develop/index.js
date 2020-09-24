@@ -11,7 +11,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "What is the name of your repository?)",
+    message: "What is the name of your repository?",
     name: "repoName",
   },
   {
