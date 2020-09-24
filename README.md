@@ -13,3 +13,13 @@ This repository consists of a command line application that creates a standard R
 * [Badges](#badges)
 * [Links](#Links)
 * [License](#license)
+
+-----
+
+## Installation
+1. Follow the GitHub Repository Link in the [Links](#Links) section below.
+1. Clone the repository using an SSH key.
+1. Open GitBash and use "git clone" to clone the repository.
+1. Run npm install to install associated modules.
+
+-----
