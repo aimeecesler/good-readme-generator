@@ -11,8 +11,7 @@ const questions = [
   },
   {
     type: "input",
-    message:
-      "What is the name of your repository?)",
+    message: "What is the name of your repository?)",
     name: "repoName",
   },
   {
@@ -43,7 +42,8 @@ const questions = [
   },
   {
     type: "list",
-    message: "Which license would you like to use? (badge will be automatically applied)",
+    message:
+      "Which license would you like to use? (badge will be automatically applied)",
     name: "license",
     choices: ["MIT", "Apache 2.0", "GPL 3.0", "BSD 3"],
   },
