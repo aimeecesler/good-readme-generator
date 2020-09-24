@@ -19,7 +19,6 @@ const questions = [
     message: "Which badges would you like to use?",
     name: "badges",
     choices: [
-      "Monthly Commit Activity",
       "Last Commit",
       "Open Issues",
       "Top Language",
