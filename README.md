@@ -83,7 +83,7 @@ As always, a huge thanks to our instructional staff for all their hard work!
 -----
 
 ## License
-    Copyright &copy; 2020 Aimee Corbin Esler
+Copyright &copy; 2020 Aimee Corbin Esler
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
