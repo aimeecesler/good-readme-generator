@@ -97,8 +97,8 @@ function generateMarkdown(data) {
       break;
   }
   for (let i = 0; i < data.badges.length; i++) {
-    if (data.badges[i] === "Weekly Commit Activity") {
-      badgesLinks = badgesLinks + `![badge](https://img.shields.io/github/commit-activity/w/${data.username}/${data.repoName}) `;
+    if (data.badges[i] === "Monthly Commit Activity") {
+      badgesLinks = badgesLinks + `![badge](https://img.shields.io/github/commit-activity/m/${data.username}/${data.repoName}) `;
     } else if (data.badges[i] === "Last Commit") {
       badgesLinks = badgesLinks + `![badge](https://img.shields.io/github/last-commit/${data.username}/${data.repoName}) `;
     } else if (data.badges[i] === "Open Issues") {
