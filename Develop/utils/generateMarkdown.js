@@ -151,7 +151,7 @@ ${data.tests}
 -----
 
 ## Questions
-Have questions? Find me on [GitHub](https://github.com/${data.username}) or [email me](${data.email}).
+Have questions? Find me on [GitHub](https://github.com/${data.username}) or [email me](MAILTO:${data.email}).
 `;
 }
 
