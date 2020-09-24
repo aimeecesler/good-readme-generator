@@ -4,7 +4,7 @@
 
 This repository consists of a command line application that creates a standard README document for a project based on the user's input.
 
-![Sample](./Develop/assets/samplereadme.PNG)
+![Sample](./assets/samplereadme.PNG)
 
 -----
 
@@ -34,15 +34,15 @@ This repository consists of a command line application that creates a standard R
 
 Edit using VSCode after [installation](#installation). JavaScript and package.json files are included.
 
-![JS](./Develop/assets/indexjs.PNG)
-![JS2](./Develop/assets/generatemarkdownjs.PNG)
+![JS](./assets/indexjs.PNG)
+![JS2](./assets/generatemarkdownjs.PNG)
 
 -----
 
 ## Building the README Generator
-When a user enters the terminal and navigates to the Develop folder, they then run 'node index.js'. This will begin the user input portion of the command line application. Through a series of questions, the user will build their custom README.md file. Based on the user's input the application will then write a .md file (in this application it is named 'sampleREADME.md') that contains a title, badges, description and table of contents.It also includes installation, usage, license, contributing, tests and questions sections. You will find that all badges are linked to the user's chosen repository and there are also links to their GitHub profile as well as their email in the questions section.
+When a user enters the terminal and navigates to the good-readme-generator folder, they then run 'node index.js'. This will begin the user input portion of the command line application. Through a series of questions, the user will build their custom README.md file. Based on the user's input the application will then write a .md file (in this application it is named 'sampleREADME.md') that contains a title, badges, description and table of contents. It also includes installation, usage, license, contributing, tests and questions sections. You will find that all badges are linked to the user's chosen repository and there are also links to their GitHub profile as well as their email in the questions section.
 
-![User Questions](./Develop/assets/questions.PNG)
+![User Questions](./assets/questions.PNG)
 
 -----
 
