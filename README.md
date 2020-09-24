@@ -67,3 +67,12 @@ As always, a huge thanks to our instructional staff for all their hard work!
 * [w3schools](https://www.w3schools.com)
 * [Node.js](https://nodejs.org/en/)
 * [Inquirer](https://www.npmjs.com/package/inquirer)
+
+-----
+
+## Links
+[Repository Link](https://github.com/aimeecesler/good-readme-generator)
+
+[Deployed Application](https://aimeecesler.github.io/good-readme-generator/)
+
+-----
